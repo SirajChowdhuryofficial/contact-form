@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul{ 
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+.bg{
+    background-image: url(../images/download\ \(8\).jpeg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 100px 0px 50px 0px;
+    text-align: center;
+}
+.heading{
+
+padding-bottom: 50px;
+}
+.heading h1{
+    
+color: white;
+    
+font-size: 35px;
+    
+font-family: 'Poppins', sans-serif;
+}
+
+.full_form{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+
+.conact_form{
+
+color: white;
+
+width: 45%;
+
+margin: auto;
+}
+.contact_info{
+}
+.contact_info h2{
+    
+text-align: left;
+    
+font-size: 35px;
+    
+padding-bottom: 30px;
+    
+font-family: 'Poppins', sans-serif;
+    
+font-weight: 400;
+}
+
+
+.info_box{
+
+text-align: left;
+
+display: flex;
+}
+.icon{font-size: 25px;padding-right: 20px;}
+.icon i{ 
+
+}
+
+.info_list{
+
+margin-top: -5px;
+
+padding-bottom: 20px;
+}
+.info_list h4{
+    
+font-size: 20px;
+    
+padding-bottom: 10px;
+    
+font-family: 'Poppins', sans-serif;
+    
+font-weight: 400;
+    
+color: hsla(0,0%,100%,1);
+}
+.info_list p{
+    
+font-size: 15px;
+    
+font-weight: 300;
+    
+font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+.main_form{width: 45%;}
+.form{
+
+background-color: white;
+
+text-align: left;
+
+padding: 50px;
+
+border-radius: 10px;
+
+width: 80%;
+}
+.form h2{
+
+color: #000000c7;
+
+padding-bottom: 30px;
+
+font-size: 30px;
+
+font-family: 'Poppins', sans-serif;
+
+font-weight: 500;
+}
+.form form{
+    width: 100%;
+    margin: auto;
+}
+    
+.form form input{
+
+width: 90%;
+
+padding: 10px;
+
+margin-bottom: 30px;
+
+border: 1px solid;
+
+border-color: #00000024;
+
+border-radius: 5px;
+
+font-family: 'Poppins', sans-serif;
+}
+.form form input[type="submit"]{
+
+background-color: #006FDC;
+
+width: 57%;
+
+margin-top: 0;
+
+color: white;
+
+padding: 10px;
+
+font-family: 'Poppins', sans-serif;
+
+font-size: 18px;
+}
+.form form textarea{width: 90%;padding: 10px;margin-bottom: 20px;border: 1px solid;border-color: #00000024;border-radius: 5px;font-family: 'Poppins', sans-serif;}
